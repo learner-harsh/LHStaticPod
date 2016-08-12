@@ -1,0 +1,16 @@
+PODS:
+  - LHStaticPod (0.1.0)
+
+DEPENDENCIES:
+  - LHStaticPod (from `../`)
+
+EXTERNAL SOURCES:
+  LHStaticPod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LHStaticPod: 6f0cbcc091ada6d9d0b8311abacbe27a7332145a
+
+PODFILE CHECKSUM: a3c88b7ceb028cbfa012f575a4d34dcaf9f64caf
+
+COCOAPODS: 1.0.1

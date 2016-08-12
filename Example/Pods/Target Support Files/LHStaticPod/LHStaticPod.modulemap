@@ -1,0 +1,6 @@
+framework module LHStaticPod {
+  umbrella header "LHStaticPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
