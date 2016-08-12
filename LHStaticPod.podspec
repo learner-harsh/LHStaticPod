@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LHStaticPod'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'Pod test For Static Libraries.'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'LHStaticPod/Classes/**/*'
-  ss.vendored_libraries = "LHStaticPod/Classes/libLoggerFinal.a"
+  s.vendored_libraries = "LHStaticPod/Classes/libLoggerFinal.a"
   
   # s.resource_bundles = {
   #   'LHStaticPod' => ['LHStaticPod/Assets/*.png']
