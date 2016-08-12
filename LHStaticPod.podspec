@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LHStaticPod'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Pod test For Static Libraries.'
 
 # This description is used to generate tags and improve search results.
@@ -29,15 +29,13 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'LHStaticPod/Classes/**/*'
-  s.public_header_files = 'LHStaticPod/Classes/*.h'
-  s.preserve_paths = 'libLoggerFinal.a'
-  s.ios.vendored_library = 'libLoggerFinal.a'
+  ss.vendored_libraries = "LHStaticPod/Classes/libLoggerFinal.a"
   
   # s.resource_bundles = {
   #   'LHStaticPod' => ['LHStaticPod/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'MapKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
